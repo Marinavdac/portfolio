@@ -6,19 +6,30 @@
 
 body {
   background: #1e2e67;
-  height: 200vh;
+}
+
+.section-title {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  max-width: 80%;
+  text-align: start;
+  margin-left: 3rem;
+  line-height: 2rem;
 }
 
 .navbar {
   position: fixed;
   top: 0;
-  padding: 1rem ;
+  padding: 1rem;
   width: 100%;
   display: flex;
   justify-content: flex-end;
   height: fit-content;
   background: #1e2e67;
-  
 }
 
 .link {
@@ -26,12 +37,10 @@ body {
   color: white;
   margin: 1rem;
   padding: 0.2rem;
-
 }
 
 .link:hover {
   color: gold;
-
 }
 
 .title {
@@ -41,7 +50,11 @@ body {
   text-shadow: rgb(15, 15, 15) 0.2em 0.1em 0.2em;
   text-align: center;
   margin-top: 8rem;
-  
+}
+.photo {
+  width: 10rem;
+  border-radius: 20%;
+  margin: 10rem 10rem auto;
 }
 
 .picture {
@@ -55,4 +68,50 @@ img {
   object-fit: cover;
   object-position: center;
   box-shadow: 0 0 1rem white;
+}
+
+.sites {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.sites p {
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.site {
+  height: 13rem;
+  width: 15rem;
+  margin: 5rem;
+}
+
+.footer-legal {
+  height: 4rem;
+  padding-top: 4rem;
+}
+
+.footer-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color: lightgrey;
+}
+
+.footer-legal-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer-legal-list a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.footer-legal-list li:nth-last-child(2) {
+  flex: 1;
 }

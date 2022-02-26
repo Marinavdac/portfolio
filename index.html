@@ -4,29 +4,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/jpg" href="/icons8-m-100p.png" />
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="./imgs/icons8-m-100p.png"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Portfólio da Marina</title>
   </head>
   <body>
-    <div class="navbar">
+    <nav class="navbar">
       <a class="link" href="#sobre">Sobre mim</a>
-      <a class="link" href="">Habilidades</a>
-      <a class="link" href="">Links</a>
-    </div>
+      <a class="link" href="#habilidades">Habilidades</a>
+      <a class="link" href="#external-links">Links</a>
+    </nav>
 
     <h1 class="title">Portfólio da Marina</h1>
 
     <div class="picture">
-      <img src="hi.gif" alt="forrest-gump-says-hi" />
+      <img src="./imgs/hi.gif" alt="forrest-gump-says-hi" />
     </div>
     <main id="sobre">
-      <p>Olá! Eu sou a <strong>Marina Verçosa de Andrade Catão</strong></p>
-      <img src="" alt="" />
-      <p>
-        uma pessoa apaixonada por filmes, livros e música (não necessariamente
-        nessa mesma ordem..rs)
-      </p>
+      <h2 class="section-title">Sobre mim</h2>
+      <div>
+        <p>Olá! Eu sou a <strong>Marina Verçosa de Andrade Catão</strong></p>
+        <img
+          class="photo"
+          src="./imgs/marina-catão-foto.jpg"
+          alt="foto-marina-sentada"
+        />
+        <p>
+          Sou de Maceió, Alagoas e sou uma pessoa apaixonada por filmes, livros
+          e música <em>(não necessariamente nessa mesma ordem..rs)</em>.
+        </p>
+      </div>
     </main>
+    <section id="habilidades">
+      <h2 class="section-title">Habilidades</h2>
+      <p>Algumas das minhas habilidades são:</p>
+
+      <ul>
+        <li><p><strong>Comunicação</strong></p></li>
+        <li><p><strong>Flexibilidade e adaptabilidade</strong></p></li>
+        <li><p>Dinamismo</p></li>
+        <li><p><strong>Apaixonada por aprender sempre coisas novas</strong></p></li>
+        <li><p>Espírito colaborativo</p></li>
+      </ul>
+    </section>
+
+    <section id="external-links">
+      <h2 class="section-title">Alguns sites que eu gosto:</h2>
+      <div class="sites">
+        <p class="site item">
+          Esses são alguns dos sites que eu adoro e recomendo:
+        </p>
+
+        <a class="" href="https://letterboxd.com/" target="_blank">
+          <img class="site item" src="./imgs/letterboxd.png" alt=""
+        /></a>
+        <a
+          class=""
+          href="https://www.ted.com/talks/brene_brown_the_power_of_vulnerability?language=en"
+          target="_blank"
+        >
+          <img class="site item" src="./imgs/brene-brown.png" alt=""
+        /></a>
+      </div>
+    </section>
+
+    <section class="footer-legal">
+      <ul class="footer-legal-list">
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li>&copy; 2022 Copyright Marina Inc.</li>
+      </ul>
+    </section>
   </body>
 </html>
