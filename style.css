@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1e2e67;
+  height: 200vh;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  padding: 1rem ;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  height: fit-content;
+  background: #1e2e67;
+  
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+  padding: 0.2rem;
+
+}
+
+.link:hover {
+  color: gold;
+
+}
+
+.title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: whitesmoke;
+  text-shadow: rgb(15, 15, 15) 0.2em 0.1em 0.2em;
+  text-align: center;
+  margin-top: 8rem;
+  
+}
+
+.picture {
+  width: 20rem;
+  margin: 8rem auto;
+}
+
+img {
+  border: 0.1rem solid rgba(146, 143, 143, 0.562);
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 0 1rem white;
+}
