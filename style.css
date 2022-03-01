@@ -5,13 +5,9 @@
 }
 
 body {
-  background: #1e2e67;
+  background:rgb(230,248,245);
 }
 
-.section-title {
-  color: white;
-  text-align: center;
-}
 
 p {
   color: white;
@@ -20,21 +16,30 @@ p {
   margin-left: 3rem;
   line-height: 2rem;
 }
+.navigation-menu{
+display: flex;
+flex: 2;
+justify-content: space-between;
+align-items: center;
+}
 
+.logo {
+  width: 3rem;
+  border-radius: 50%;
+
+}
 .navbar {
-  position: fixed;
-  top: 0;
+  margin-top: 0;
   padding: 1rem;
   width: 100%;
-  display: flex;
-  justify-content: flex-end;
   height: fit-content;
-  background: #1e2e67;
+  background:rgba(251, 251, 251, 0.836);
+  border-radius: 0 0 1.5rem 1.5rem;
 }
 
 .link {
   text-decoration: none;
-  color: white;
+  color: black;
   margin: 1rem;
   padding: 0.2rem;
 }
@@ -46,8 +51,8 @@ p {
 .title {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: whitesmoke;
-  text-shadow: rgb(15, 15, 15) 0.2em 0.1em 0.2em;
+  color:rgb(230,248,245);
+  text-shadow: rgb(9, 9, 9) 0.1em 0 0.1em;
   text-align: center;
   margin-top: 8rem;
 }
@@ -57,9 +62,19 @@ p {
   margin: 10rem 10rem auto;
 }
 
+.section-title {
+  color: rgb(72, 137, 156);
+  text-align: center;
+}
 .picture {
   width: 20rem;
   margin: 8rem auto;
+}
+.profile-card{
+  background-color: white;
+  text-shadow: rgba(146, 143, 143, 0.562);
+  height: 20rem;
+  width: 50vh;
 }
 
 img {
@@ -115,3 +130,4 @@ img {
 .footer-legal-list li:nth-last-child(2) {
   flex: 1;
 }
+
